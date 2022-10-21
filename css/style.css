@@ -1,0 +1,100 @@
+        /* .text {
+         text-align:  center;
+        height: calc(100vh - 870px);
+        } */
+        
+        header{
+            min-width: 300px;
+            background-color: rgba(188, 188, 188, 0.500);
+
+            padding-top: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-bottom: 1%;
+
+            border-top: 1%;
+            border-left: 2%;
+            border-right: 2%;
+            border-bottom: 1%;
+            border-radius: 20px;
+
+            margin-top: 1%;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-bottom: 1%;
+        }
+
+        main{
+            min-width: 300px;
+            background-color: rgba(188, 188, 188, 0.500);
+
+            padding-top: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-bottom: 1%;
+
+            border-top: 1%;
+            border-left: 2%;
+            border-right: 2%;
+            border-bottom: 1%;
+            border-radius: 20px;
+
+            margin-top: 1%;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-bottom: 1%;
+        }
+
+        p.img img {
+            width:100%;
+        }
+        
+        h2 { 
+        font-size: 200%; 
+        color: white;
+        background-color: rgba(0, 0, 0, 0.255);
+        border-radius: 10px;
+        padding-left:20px;
+        width: auto;
+        }
+
+        .hs { 
+        font-size: 200%; 
+        color: white;
+        }
+
+        h1 { 
+        font-size: 300%; 
+        color: white;
+        background-color: rgba(0, 0, 0, 0.255);
+        border-radius: 10px;
+        padding-left:20px;
+        width: auto;
+        }
+
+        h3 { 
+        font-size: 150%; 
+        color: white;
+        background-color: rgba(0, 0, 0, 0.255);
+        border-radius: 10px;
+        padding-left:20px;
+        width: auto;
+        }
+
+        a { 
+            text-decoration: none;
+            background-color: aliceblue;
+        } 
+        a:visited {
+            color: rgba(255, 255, 255, 0.795);
+        }   
+        a:hover { 
+        text-decoration: underline;
+        background-color: bisque;
+        }
+        .title {
+            font-size: 300%; 
+        color: white;
+        }
+
+       
