@@ -8,6 +8,7 @@
         header{
             min-width: 300px;
             max-width: 90%;
+            max-height: 10%;
             background-color: rgba(188, 188, 188, 0.500);
 
             padding-top: 1%;
