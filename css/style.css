@@ -2,7 +2,9 @@
          text-align:  center;
         height: calc(100vh - 870px);
         } */
-        
+        .layout {
+            display: flex;
+        }
         header{
             min-width: 300px;
             background-color: rgba(188, 188, 188, 0.500);
@@ -25,6 +27,27 @@
         }
 
         main{
+            min-width: 300px;
+            background-color: rgba(188, 188, 188, 0.500);
+
+            padding-top: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-bottom: 1%;
+
+            border-top: 1%;
+            border-left: 2%;
+            border-right: 2%;
+            border-bottom: 1%;
+            border-radius: 20px;
+
+            margin-top: 1%;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-bottom: 1%;
+        }
+
+        footer {
             min-width: 300px;
             background-color: rgba(188, 188, 188, 0.500);
 
