@@ -117,7 +117,7 @@
         }
 
         h2 { 
-        font-size: 200%; 
+        font-size: 150%; 
         color: white;
         background-color: rgba(0, 0, 0, 0.255);
         border-radius: 10px;
@@ -127,12 +127,12 @@
         }
 
         .hs { 
-        font-size: 200%; 
+        font-size: 150%; 
         color: white;
         }
 
         h1 { 
-        font-size: 300%; 
+        font-size: 200%; 
         color: white;
         background-color: rgba(0, 0, 0, 0.255);
         border-radius: 10px;
@@ -142,7 +142,7 @@
         }
 
         h3 { 
-        font-size: 150%; 
+        font-size: 125%; 
         color: white;
         background-color: rgba(0, 0, 0, 0.255);
         border-radius: 10px;
@@ -163,7 +163,7 @@
         background-color: bisque;
         }
         .title {
-            font-size: 300%; 
+            font-size: 200%; 
         color: white;
         }
 
