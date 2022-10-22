@@ -27,7 +27,7 @@
         }
 
         main{
-            min-width: 300px;
+            min-width: 400px;
             background-color: rgba(188, 188, 188, 0.500);
 
             padding-top: 1%;
@@ -48,7 +48,7 @@
         }
 
         footer {
-            min-width: 300px;
+            min-width: 400px;
             background-color: rgba(188, 188, 188, 0.500);
 
             padding-top: 1%;
@@ -69,23 +69,23 @@
         }
 
         menu {
-            min-width: 100px;
+            min-width: 50px;
             background-color: rgba(188, 188, 188, 0.500);
 
             padding-top: 1%;
             padding-left: 0%;
-            padding-right: 2%;
+            padding-right: 0%;
             padding-bottom: 1%;
 
             border-top: 1%;
             border-left: 0%;
-            border-right: 2%;
+            border-right: 0%;
             border-bottom: 1%;
             border-radius: 20px;
 
             margin-top: 1%;
             margin-left: 0%;
-            margin-right: 2%;
+            margin-right: 0%;
             margin-bottom: 1%;
         }
 
@@ -93,6 +93,11 @@
             width:100%;
         }
         
+        .h-menu {
+            font-size: 50%; 
+        color: white;
+        }
+
         h2 { 
         font-size: 200%; 
         color: white;
