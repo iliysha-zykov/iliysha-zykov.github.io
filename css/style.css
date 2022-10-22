@@ -98,7 +98,12 @@
         
         .h-menu {
             font-size: 100%; 
-        color: white;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.255);
+            border-radius: 10px;
+        padding-left:20px;
+        padding-right:20px;
+        width: auto;
         }
 
         h2 { 
