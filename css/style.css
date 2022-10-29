@@ -2,6 +2,10 @@
          text-align:  center;
         height: calc(100vh - 870px);
         } */
+        body {
+            max-width:auto;
+            max-height:auto;
+        }
         .layout {
             display: flex;
         }
