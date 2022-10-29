@@ -1,103 +1,37 @@
-        /* .text {
-         text-align:  center;
-        height: calc(100vh - 870px);
-        } */
+
         body {
             width:auto;
-            max-height:1440px;
-            max-width: 1920px;
+            background-image: url("../картиночки/капибара\ с\ размытым\ фоном.jpg");
+            background-size:auto;
+            background-position:top;
+            background-repeat: no-repeat;
+            /* max-height:1440px;
+            max-width: 1920px; */
         }
         .layout {
             display: flex;
         }
         header{
-            /* min-width: 300px; */
+
             max-width: 90%;
             min-height: 10%;
-            /* background-color: rgba(188, 188, 188, 0.500);
-
-            padding-top: 1%;
-            padding-left: 2%;
-            padding-right: 2%;
-            padding-bottom: 1%;
-
-            border-top: 1%;
-            border-left: 2%;
-            border-right: 2%;
-            border-bottom: 1%;
-            border-radius: 20px;
-
-            margin-top: 2px;
-            margin-left: 5px;
-            margin-right: 2%; */
             
         }
 
         main{
             max-width: 90%;
             min-height: 80%;
-            /* max-width: 90%;
-            background-color: rgba(188, 188, 188, 0.500);
-
-            padding-top: 1%;
-            padding-left: 2%;
-            padding-right: 2%;
-            padding-bottom: 1%;
-
-            border-top: 1%;
-            border-left: 2%;
-            border-right: 2%;
-            border-bottom: 1%;
-            border-radius: 10px;
-
-            margin-top: 2px;
-            margin-left: 5px;
-            margin-right: 2%; */
-            
+           
         }
 
         footer {
             max-width: 90%;
             min-height: 10%;
-            /* max-width: 90%;
-            background-color: rgba(188, 188, 188, 0.500);
-
-            padding-top: 1%;
-            padding-left: 2%;
-            padding-right: 2%;
-            padding-bottom: 1%;
-
-            border-top: 1%;
-            border-left: 2%;
-            border-right: 2%;
-            border-bottom: 1%;
-            border-radius: 10px;
-
-            margin-top: 2px;
-            margin-left: 5px;
-            margin-right: 2%;
-             */
+            
         }
 
         menu {
-            max-width: 10%;
             min-height: 80%;
-            /* background-color: rgba(188, 188, 188, 0.500);
-
-            padding-top: 1%;
-            padding-left: 1%;
-            padding-right: 1%;
-            padding-bottom: 1%;
-
-            border-top: 1%;
-            border-left: 1%;
-            border-right: 1%;
-            border-bottom: 1%;
-            border-radius: 2px;
-
-            margin-top: 2px;
-            margin-left: 2px;
-            margin-right: 0; */
             
         }
 .left, .right {
@@ -205,7 +139,7 @@ header, main, footer, menu {
             border-left: 2%;
             border-right: 2%;
             border-bottom: 2%;
-            border-radius: 20px;
+            border-radius: 5px;
 
             margin-top: 5px;
             margin-bottom: 5px;
