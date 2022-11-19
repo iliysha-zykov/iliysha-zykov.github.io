@@ -34,6 +34,11 @@
             min-height: 80%;
             
         }
+
+        .menu1 {
+            min-height: 80%;
+            
+        }
 .left, .right {
     margin: 0;
     padding: 0;
@@ -103,11 +108,11 @@ menu ul {
         }
 
         a { 
-            text-decoration: none;
-            background-color: aliceblue;
+            text-decoration:wavy;
+            /* background-color: aliceblue; */
         } 
         a:visited {
-            color: rgba(255, 255, 255, 0.795);
+            color: rgba(3, 2, 2, 0.795);
         }   
         a:hover { 
         text-decoration: underline;
