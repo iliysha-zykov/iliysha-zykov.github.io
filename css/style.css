@@ -95,7 +95,7 @@ menu ul {
         }
 
         h1 { 
-        font-size: 200%; 
+        font-size: 250%; 
         color: white;
         background-color: rgba(0, 0, 0, 0.255);
         border-radius: 10px;
@@ -180,3 +180,7 @@ header, footer {
 .left menu ul {
     padding: 0;
 }
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
