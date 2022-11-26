@@ -201,8 +201,15 @@ header, footer {
 
 .left menu ul {
     padding: 0;
+    
+}
+
+.right li {
+    padding: 0;
+    list-style-type: none;
 }
 
 .selector-for-some-widget {
     box-sizing: content-box;
+
   }
