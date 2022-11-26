@@ -144,6 +144,10 @@ menu ul {
             text-decoration: none;
         }
 
+        .right img:hover{
+            mask-image:linear-gradient(rgb(255, 0, 0, 0.5),rgb(111, 0, 255, 0.5));
+        }
+
         .title {
             font-size: 200%; 
         color: white;
