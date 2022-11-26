@@ -124,10 +124,26 @@ menu ul {
         a:visited {
             color: rgb(186, 186, 186);
         }   
-        a:hover { 
-        text-decoration: underline;
+        /* a:hover { 
+        text-decoration: none;
+        text-transform:uppercase;
+         */
         /* background-color: bisque; */
+        /* } */
+        
+        .left a:hover {
+            text-decoration: none;
+        text-transform:uppercase;
         }
+
+        .right a:hover {
+            text-decoration: underline;
+        }
+
+        .right a {
+            text-decoration: none;
+        }
+
         .title {
             font-size: 200%; 
         color: white;
