@@ -1,9 +1,9 @@
 
         body {
             
-            background-image: url("../картиночки/капибара\ с\ размытым\ фоном.jpg");
-
-            background-position: top;
+            background-image: url("../картиночки/капибара\ у\ реки.jpg");
+            width:1350px;
+            
             background-attachment: fixed;
             background-repeat: no-repeat;
             /* max-height:600px;
@@ -14,45 +14,6 @@
         .layout {
             display: flex;
         }
-        header{
-
-            max-width: 90%;
-            min-height: 10%;
-            
-        }
-
-        main{
-            max-width: 90%;
-            min-height: 80%;
-           
-        }
-
-        footer {
-            max-width: 90%;
-            min-height: 10%;
-            
-        }
-
-        menu {
-            min-height: 80%;
-            
-        }
-
-        .menu1 {
-            min-height: 80%;
-            
-        }
-.left, .right {
-    margin: 0;
-    padding: 0;
-    height: 90%;
-}
-
-.top {
-    margin: 0;
-    padding: 0;
-    height: 10%;
-}
 
 menu ul {
     list-style: none;
@@ -76,8 +37,8 @@ menu ul {
             color: white;
             background-color: rgba(0, 0, 0, 0.255);
             border-radius: 10px;
-        padding-left:20px;
-        padding-right:20px;
+        /* padding-left:20px;
+        padding-right:20px; */
         width: auto;
         }
 
@@ -85,9 +46,11 @@ menu ul {
         font-size: 150%; 
         color: white;
         background-color: rgba(0, 0, 0, 0.255);
-        border-radius: 10px;
-        padding-left:20px;
-        padding-right:20px;
+        border-radius: 15px;
+        padding-left:5px;
+        padding-right:5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         width: auto;
         }
 
@@ -100,21 +63,28 @@ menu ul {
         font-size: 250%; 
         color: white;
         background-color: rgba(0, 0, 0, 0.255);
-        border-radius: 10px;
-        padding-left:20px;
-        padding-right:20px;
+        border-radius: 15px;
+        padding-left:5px;
+        padding-right:5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         width: auto;
+        text-align:center;
         }
 
         h3 { 
         font-size: 125%; 
         color: white;
         background-color: rgba(0, 0, 0, 0.255);
-        border-radius: 10px;
-        padding-left:20px;
-        padding-right:20px;
+        border-radius: 15px;
+        padding-left:5px;
+        padding-right:5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         width: auto;
         }
+
+        
 
         a { 
             text-decoration:underline;
@@ -153,50 +123,110 @@ menu ul {
         color: white;
         }
 
-        /* @media screen (min-width: 500px) {
-            header {min-width: 300px;
-                max-width: 90%;}
-        } */
 
        
 header, main, footer, menu {
     background-color: rgba(188, 188, 188, 0.500);
+}
 
-    width: auto;
-    height: auto;
+.right {
+    width: 1100px;
+    height:1005px;
+    
+    
 
-            padding-top: 2px;
-            padding-left: 2px;
-            padding-right: 2px;
-            padding-bottom: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 0;
+}
 
-            border-top: 2px;
-            border-left: 2px;
-            border-right: 2px;
-            border-bottom: 2px;
-            border-radius: 5px;
+.left {
+    width: 250px;
+    height:1005px;
 
-            margin-top: 5px;
-            margin-bottom: 5px;
-            margin-left: 5px;
-            margin-right: 0;
+    
+
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    margin-right: 2px;
+}
+
+.layout {
+    width: 1350px;
+    height:1005px;
+    
+    margin-top: 2px;
 }
 
 main {
     /* min- */
-    min-width: 400px;
+    width: 1100px;
+    height: 945px;
+
+    border-radius: 15px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 menu {
     /* min- */
-    min-width: 202px;
+    width: 250px;
+    height: auto;
+
+    /* padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-bottom: 2px; */
+    border-radius: 15px; 
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-header, footer {
+footer {
+    width: 1100px;
+    min-height:60px;
+
+    /* padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-bottom: 2px; */
+    border-radius: 15px;
+
+    margin-top: 4px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.top {
+    width: 1350px;
+    height:60px;
     
     margin:0;
-    /* min- */
-    min-width:calc(400px + 202px + 2px + 2px + 5px + 5px);
+}
+
+header {
+    width: 1350px;
+    height:60px;
+    margin-bottom: 2.5px;
+    border-radius: 15px; 
 }
 
 .left menu ul {
