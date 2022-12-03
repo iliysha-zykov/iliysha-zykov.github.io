@@ -26,6 +26,7 @@ menu ul {
         padding-left:20px;
         padding-right:20px;
         width: auto;
+
         }
 
         p.img img {
@@ -151,6 +152,7 @@ header, main, footer, menu {
     margin-bottom: 0;
     
     margin-right: 2px;
+    
 }
 
 .layout {
