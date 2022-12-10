@@ -133,12 +133,13 @@ menu ul {
        
 header, main, footer, menu {
     background-color: rgba(188, 188, 188, 0.500);
+    height:fit-content;
 }
 
 .right {
     width: 1100px;
-    height:1005px;
-    
+    /* height:1005px; */
+    height:fit-content;
     
 
     margin-top: 0;
@@ -149,8 +150,8 @@ header, main, footer, menu {
 
 .left {
     width: 250px;
-    height:1005px;
-
+    /* height:1005px; */
+    height:fit-content;
     
 
     margin-top: 0;
