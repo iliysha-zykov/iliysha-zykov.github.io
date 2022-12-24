@@ -66,28 +66,28 @@ h3 {
 
 menu a {
   text-decoration: none;
-  color: rgb(170, 155, 195);
+  color: rgb(255, 220, 0);
 
 }
 
 a:visited {
-  color: rgb(195, 155, 255);
+  color: rgb(255, 220, 0);
 }
 
 menu a:hover {
-  color: #9580ff;
+  color: #ff8800;
   text-transform: uppercase;
   text-decoration: underline;
 }
 
 .right a:hover {
-  color: #9580ff;
+  color: #ff8800;
   text-decoration: underline;
 }
 
 .right a {
   text-decoration: none;
-  color: rgb(170, 155, 195);
+  color: rgb(255, 220, 0);
 }
 
 .right img:hover {
