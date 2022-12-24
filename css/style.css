@@ -1,16 +1,31 @@
 body {
   align-content: center;
-  text-align: center;
+  
   background-position: top;
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: repeat-y;
 }
 
+.h-menu{
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.1);
+  text-decoration: wavy;
+  border-radius: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.element{
+  text-align: center;
+}
 .layout {
   display: flex;
-  width: auto;
+  max-width: 1500px;
   height: fit-content;
+  margin:0 auto;
 }
 
 main {
@@ -66,7 +81,7 @@ h3 {
 
 menu a {
   text-decoration: none;
-  color: rgb(255, 220, 0);
+  text-shadow: rgb(0, 0, 0);
 
 }
 
@@ -76,7 +91,7 @@ a:visited {
 
 menu a:hover {
   color: #ff8800;
-  text-transform: uppercase;
+  
   text-decoration: underline;
 }
 
@@ -90,9 +105,7 @@ menu a:hover {
   color: rgb(255, 220, 0);
 }
 
-.right img:hover {
-  mask-image: linear-gradient(rgb(255, 0, 0, 0.5), rgb(111, 0, 255, 0.5));
-}
+
 
 h2:hover {
   animation: changeColor 2s linear;
@@ -104,7 +117,7 @@ header,
 main,
 footer,
 menu {
-  background-color: rgba(188, 188, 188, 0.500);
+  background-color: rgba(195, 195, 188, 0.500);
 }
 
 .right {
