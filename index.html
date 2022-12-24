@@ -13,38 +13,79 @@
   <title>Илья Зыков</title>
   <style>
     body {
-      
-      background-image: url("картиночки/не для смартфона.jpg");
+      display: table;
+      background-image: url("картиночки/фоны/не\ для\ смартфона.jpg");
 
-
+      align-content: space-around;
     }
 
-    @media (max-width:360px) {
+    @media (min-width:300px) and (max-width:400px) {
       body {
-        background-image: url("картиночки/для смартфона.jpg");
-      
-        max-width: 360px;
+        text-align: center;
+        display: table;
+        align-content: center;
+        background-image: url("картиночки/фоны/400px.jpg");
+        
+        width: 100%;
+      }
+
+
+      * {
+        margin: 0;
+        padding: 0;
+
       }
     }
+
+    @media (min-width:400px) and (max-width:600px) {
+      body {
+        text-align: center;
+        display: table;
+        align-content: center;
+        background-image: url("картиночки/фоны/600px.jpg");
+        
+        width: 100%;
+      }
+
+
+      * {
+        margin: 0;
+        padding: 0;
+
+      }
+    }
+
+    /* @media (max-width:600px) {
+      body {
+        text-align: left;
+        display: flow-root;
+        align-content: center;
+        background-image: url("картиночки/фоны/600px.jpg");
+        
+      } 
+
+
+      * {
+        margin: 0;
+        padding: 0;
+
+      }
+    } */
 
     header,
     main,
     footer,
     menu {
       /* background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(255, 166, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(0, 128, 0, 0.5), rgba(0, 125, 255, 0.5), rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5)); */
-      background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(180, 95, 95, 0.5), rgba(120, 95, 180, 0.5), rgba(128, 0, 128, 0.5));
-      width: auto;
+      background: linear-gradient(45deg, rgba(255, 0, 0, 0.65), rgba(180, 95, 95, 0.65), rgba(120, 95, 180, 0.65), rgba(128, 0, 128, 0.65));
+
       height: fit-content;
 
-      padding-top: 2%;
-      padding-left: 2%;
-      padding-right: 2%;
-      padding-bottom: 2%;
+      padding-top: 2px;
+      padding-left: 2px;
+      padding-right: 2px;
+      padding-bottom: 2px;
 
-      border-top: 2%;
-      border-left: 2%;
-      border-right: 2%;
-      border-bottom: 2%;
       border-radius: 5px;
 
       margin-top: 5px;
@@ -62,7 +103,7 @@
 <body>
 
   <div class="layout">
-    <div class="left">
+    <!-- <div class="left">
       <menu>
         <div class="element">
           <h1>Animals</h1>
@@ -106,7 +147,7 @@
       </menu>
 
 
-    </div>
+    </div> -->
 
     <div class="right">
       <header>
@@ -117,16 +158,62 @@
       </header>
       <main>
         <div class="element">
-          <h1>Обо мне любимом</h1>
+          <h1>Lorem, ipsum dolor.</h1>
         </div>
 
-        <h2>Привет, меня зовут Зыков Илья. Мне 15 лет, учусь в 9 классе. Это страница о моих увлечениях и о моих
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci reprehenderit voluptatem laudantium
+          quaerat totam. Nemo nisi vitae voluptas minus aliquam praesentium, obcaecati culpa quaerat porro saepe aperiam
+          voluptate ducimus incidunt minima vero, enim doloremque explicabo tenetur! Aliquid mollitia ipsum, sed
+          nesciunt quia animi, adipisci doloremque in ipsa veniam corrupti repudiandae excepturi. Architecto quas
+          quisquam amet expedita. Qui cumque sint dolores saepe voluptatibus necessitatibus adipisci esse quos. Esse
+          distinctio at, tempora, sint repellendus quos aliquam dolore magni alias adipisci maiores tenetur doloribus
+          quo repudiandae architecto. Mollitia, laudantium cupiditate. Labore possimus sit, minus corrupti magni neque,
+          velit earum, sunt consectetur harum laborum nulla nemo excepturi veritatis quod adipisci amet libero
+          aspernatur modi quaerat. Doloremque dolorem, nisi tempora nobis porro quia, iste culpa adipisci possimus eum
+          ex quisquam commodi nulla autem earum amet dignissimos at? Aut expedita aliquam minima tempore exercitationem
+          harum ducimus vero similique. Asperiores incidunt labore laborum numquam distinctio blanditiis? Cupiditate
+          facere ullam cum incidunt modi fugiat cumque, eos vero. Nostrum porro minima enim. Dolores, temporibus magnam.
+          Aliquid sed qui tenetur pariatur, nam atque sunt dicta cumque laudantium explicabo quam optio quibusdam eos
+          eaque, eum voluptatibus quia magni possimus, repellat temporibus aliquam numquam placeat in excepturi! Totam
+          odio laborum velit, nisi ratione impedit! Cum voluptatibus tempora ipsam aliquid, quasi assumenda. Quo nemo
+          eaque placeat in. Quibusdam explicabo animi nesciunt corrupti aperiam dolor! Ut.
+          <!-- Привет, меня зовут Зыков Илья. Мне 15 лет, учусь в 9 классе. Это страница о моих увлечениях и о моих
           предпочтениях.
           <br> Я люблю <a href="Music.html">слушать музыку</a>, изучать <a href="Languages.html">иностранные языки</a>,
           читать,
           рисовать, смотреть аниме и дорамы. Из школьных предметов мне нравится литература, биология и английский язык.
-          <br> Я не люблю фастфуд, крыс и громкие звуки.
+          <br> Я не люблю фастфуд, крыс и громкие звуки. -->
         </h2>
+        <h1>Lorem, ipsum.</h1>
+        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, excepturi modi placeat voluptatem
+          numquam officiis? Libero, alias natus quae adipisci quos ipsa facilis consectetur dignissimos debitis itaque
+          eum repellendus inventore et explicabo autem officiis impedit temporibus! Optio illo, reiciendis omnis ullam
+          distinctio eum aspernatur praesentium cumque quis asperiores qui quae quod, ipsa reprehenderit corporis neque?
+          Dolore animi vero dolor, illo deserunt consequuntur exercitationem distinctio, maxime enim quibusdam non quasi
+          adipisci blanditiis. Quisquam nobis aperiam, iure harum pariatur officiis itaque! Eveniet eius error
+          consequatur aperiam. Qui cumque excepturi, voluptatum inventore, voluptatibus deserunt dolorem, aperiam
+          reprehenderit expedita modi consequatur adipisci. Quas libero tempora nobis eligendi maxime impedit. Earum
+          illo perferendis nulla odit sed eius architecto amet similique placeat ipsam accusantium veritatis nobis
+          consequatur, modi distinctio temporibus soluta deserunt numquam fuga? Quidem obcaecati assumenda suscipit aut,
+          magni quo laudantium vero illo aliquid deserunt quasi facere placeat neque quas, necessitatibus quaerat qui
+          ipsum officia facilis cupiditate doloribus tempora consequuntur ullam. Nostrum corporis tempora ad, dolorem
+          dolorum voluptatibus exercitationem asperiores id temporibus quos eos perspiciatis ex autem provident
+          quibusdam ratione non esse officiis nisi eum unde facilis eaque mollitia maiores? Sequi placeat quos, maiores
+          officia aperiam alias, eos voluptatem nisi similique, numquam doloremque?</h2>
+        <h1>Lorem ipsum dolor sit amet.
+
+        </h1>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, voluptatum hic commodi quaerat, veniam
+          facere aspernatur nam consequuntur dignissimos cum dolor impedit vitae numquam. Dolor ducimus eaque maxime
+          odio dolorem laborum nulla eius, hic nam atque ullam quo recusandae possimus nesciunt at culpa vero molestiae
+          reprehenderit quibusdam eveniet veniam asperiores cupiditate? Quos, quo delectus inventore alias minima
+          explicabo veniam animi adipisci qui ab sequi ipsa! Consequatur qui itaque placeat est culpa temporibus
+          deserunt doloremque, ut a mollitia architecto, iure eum debitis delectus sint, laudantium veritatis inventore
+          perspiciatis? Eveniet alias itaque quae nobis fugiat doloremque quasi iusto, aliquam numquam. Reiciendis harum
+          asperiores dolor inventore dolores perferendis quas at pariatur molestias. Voluptate, aliquam eligendi.
+          Distinctio, dolorem. Illum, consequatur. Quisquam, exercitationem sed. Alias praesentium enim excepturi
+          adipisci laudantium sunt rem, aspernatur cumque velit quo ducimus incidunt et maiores repudiandae tempora
+          beatae repellat reprehenderit eveniet veniam, dolorem culpa ipsam.</h2>
 
         <!-- <h3>Держите красивую анимашку:<div class="child"><h2>utsukushisa</h2></div></h3> -->
 

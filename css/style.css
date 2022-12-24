@@ -4,7 +4,7 @@ body {
   background-position: top;
   background-size: 100%;
   background-attachment: fixed;
-  background-repeat:repeat-y;
+  background-repeat: repeat-y;
 }
 
 .layout {
@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  height: fit-content
+  height: fit-content;
 }
 
 menu ul {
@@ -94,11 +94,6 @@ menu a:hover {
   mask-image: linear-gradient(rgb(255, 0, 0, 0.5), rgb(111, 0, 255, 0.5));
 }
 
-.title {
-  font-size: 200%;
-  color: white;
-}
-
 h2:hover {
   animation: changeColor 2s linear;
 }
@@ -157,7 +152,7 @@ menu {
 
 
 
-  width: max-content;
+  /* width: max-content; */
   border-radius: 15px;
 
   margin-top: 0;
@@ -344,7 +339,7 @@ header {
 }
 
 .element {
-  animation: changeColor 10s infinite;
+  animation: changeColor 20s infinite;
   border-radius: 15px;
 }
 
@@ -388,7 +383,7 @@ header {
   width: auto;
   border-radius: 15px;
   animation:
-    color-change 5s alternate-reverse linear infinite;
+    color-change 20s alternate-reverse linear infinite;
 }
 
 .child {
@@ -396,42 +391,5 @@ header {
   border-radius: 15px;
   animation:
     circle-to-square 10s alternate-reverse infinite ease-in-out 5s,
-    color-change 5s alternate-reverse linear infinite;
-}
-
-@media (max-width: 360px) {
-  * {
-    margin: 0;
-    padding: 0;
-    max-width: 360px;
-    width: 100%
-    
-  }
-
-  body {
-    background-image: url("картиночки/s-tsuchiya-rXi3eKDn8PA-unsplash");
-    background-size: 100%;
-    background-attachment: fixed;
-   
-  }
-
-  .layout {
-    /* display:flex; */
-    flex-wrap: wrap;
-
-
-  }
-
-  
-  .left{
-    
-    max-width: 360px;
-    
-  }
-  .right {
-    
-    
-    max-width: 360px;
-    
-}
+    color-change 20s alternate-reverse linear infinite;
 }
