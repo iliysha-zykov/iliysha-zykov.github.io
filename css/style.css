@@ -29,7 +29,7 @@ h3:hover {
 h2 {
 
   color: white;
-  background-color: rgba(0, 0, 0, 0.255);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   padding-left: 5px;
   padding-right: 5px;
@@ -53,7 +53,7 @@ h1 {
 h3 {
 
   color: white;
-  background-color: rgba(0, 0, 0, 0.255);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   padding-left: 5px;
   padding-right: 5px;
@@ -322,15 +322,18 @@ header {
       background-color: rgba(33, 0, 95, 0);
     } */
   0% {
-    background-color: rgba(33, 0, 95, 0.25);
+    background-color: rgba(255, 255, 0, 0.25);
+    text-shadow: darkslateblue;
   }
 
   50% {
-    background-color: rgba(33, 0, 95, 0.5);
+    background-color: rgba(255, 111, 0, 0.5);
+    text-shadow: darkslateblue;
   }
 
   100% {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 0, 0.25);
+    text-shadow: darkslateblue;
   }
 
   /* 100% {
@@ -367,15 +370,17 @@ header {
 
 @keyframes color-change {
   from {
-    background-color: rgba(160, 75, 75, 0.5);
+    background-color: rgba(255, 255, 0, 0.5);
+    text-shadow: darkslateblue;
   }
 
   50% {
-    background-color: #534792;
+    background-color: #644792;
+    text-shadow: darkslateblue;
   }
 
   to {
-    background-color: #436e97;
+    background-color: #ffc400;
   }
 }
 
