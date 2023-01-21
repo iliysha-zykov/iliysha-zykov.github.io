@@ -188,4 +188,13 @@
     padding: 0;
     list-style-type: none;
   }
+
+  body {
+    align-content: center;
+    
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+  }
   
