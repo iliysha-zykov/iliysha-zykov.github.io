@@ -1,94 +1,226 @@
-
-
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=2.0">
     <link rel="shortcut icon" href="картиночки/иконки/Без-имени.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>Милашки</title>
     <style>
         body {
             background-image: url("картиночки/jordan-whitt-EerxztHCjM8-unsplash.jpg");
             background-position: bottom;
             background-size: 100%;
-            background-attachment: fixed ;
-            background-repeat : no-repeat;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
         }
+
         @media (min-width:400px) and (max-width:600px) {
-      body {
+            body {
 
-        background-image: url("картиночки/kerin-gedge-P3sEj29SHD8-unsplash.jpg");
+                background-image: url("картиночки/kerin-gedge-P3sEj29SHD8-unsplash.jpg");
 
-        width: 100%;
-      }
-    }
+                width: 100%;
+            }
+        }
 
-    @media (min-width:300px) and (max-width:400px) {
-      body {
-
-
-
-        background-image: url("картиночки/kerin-gedge-P3sEj29SHD8-unsplash.jpg");
-
-        width: 100%;
-      }
+        @media (min-width:300px) and (max-width:400px) {
+            body {
 
 
-      * {
-        margin: 0;
-        padding: 0;
 
-      }
-    }
+                background-image: url("картиночки/kerin-gedge-P3sEj29SHD8-unsplash.jpg");
+
+                width: 100%;
+            }
+
+
+            * {
+                margin: 0;
+                padding: 0;
+
+            }
+        }
+
+        @keyframes changeColor {
+            0% {
+                background-color: rgba(50, 100, 10, 0.5);
+                text-shadow: rgb(140, 60, 60);
+            }
+
+            50% {
+                background-color: rgba(50, 100, 10, 0.5);
+                text-shadow: rgb(140, 60, 60);
+            }
+
+            100% {
+                background-color: rgba(50, 100, 10, 0.5);
+                text-shadow: rgb(140, 60, 60);
+            }
+        }
+
+        a:visited {
+            color: rgb(80, 70, 60);
+        }
+
+        menu a:hover {
+            color: #624f38;
+
+            text-decoration: underline;
+        }
+
+        .right a:hover {
+            color: #624f38;
+            text-decoration: underline;
+        }
+
+        .right a {
+            text-decoration: none;
+            color: rgb(108, 108, 98);
+        }
+
+
+        .element {
+            animation: changeColor 20s infinite;
+            border-radius: 15px;
+        }
     </style>
-    
-    <link rel="stylesheet" href="css/cuties.css">
-    </head>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/cuties/cuties.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
 <body>
-    
+
     <div class="layout">
         <div class="left">
             <menu>
-                <div class="element"><h1>Animals</h1></div>
-                <ul><h1>South America</h1>
-                <li><a href="CuteBaras.html"><h2>capybaras</h2></a></li>
-                
-                <li><a href="CuteShilas.html"><h2>shinshillas</h2></a></li>
-                
+                <div class="element">
+                    <h1>Animals</h1>
+                </div>
+                <ul>
+                    <h1>South America</h1>
+                    <li><a href="CuteBaras.html">
+                            <h2>capybaras</h2>
+                        </a></li>
+
+                    <li><a href="CuteShilas.html">
+                            <h2>shinshillas</h2>
+                        </a></li>
+
                 </ul>
-                <ul><h1>Australia</h1>
-                  <li><a href="CuteRoos.html"><h2>kangaroos</h2></a></li>
-                  <li><a href="CuteOalas.html"><h2>koalas</h2></a></li>
-                  <li><a href="CuteMbats.html"><h2>wombats</h2></a></li>
+                <ul>
+                    <h1>Australia</h1>
+                    <li><a href="CuteRoos.html">
+                            <h2>kangaroos</h2>
+                        </a></li>
+                    <li><a href="CuteOalas.html">
+                            <h2>koalas</h2>
+                        </a></li>
+                    <li><a href="CuteMbats.html">
+                            <h2>wombats</h2>
+                        </a></li>
                 </ul>
-                <ul><h1>China</h1>
-                  <li><a href="CuteBigNdas.html"><h2>big pandas</h2></a></li>
-                  <li><a href="CuteSmallNdas.html"><h2>small pandas</h2></a></li>
+                <ul>
+                    <h1>China</h1>
+                    <li><a href="CuteBigNdas.html">
+                            <h2>big pandas</h2>
+                        </a></li>
+                    <li><a href="CuteSmallNdas.html">
+                            <h2>small pandas</h2>
+                        </a></li>
                 </ul>
-              </menu> 
-              
+            </menu>
+
         </div>
 
         <div class="right">
-            <main> 
+            <main>
                 <!-- <p class="p-text">Этот сайт содержит в себе разнообразные фотографии капибар в различных ситуациях. Этот сайт - тестовый проект, в процессе создания которого я обучаюсь. -->
-                    <div>
-                        <h1>Кто такие коалы?</h1>
-                        <h2></h2> 
-                        <!-- <img src="картиночки/капибара на траве.jpg" height="281px" width="400px"> -->
+                <div>
+                    <h1>Кто такие коалы?</h1>
+                    <h2>Коа́ла — вид сумчатых, обитающий в Австралии. Единственный современный представитель семейства
+                        коаловых из отряда двурезцовых сумчатых. коалы похожи на вомбатов (их ближайших
+                        родственников)[11],
+                        но имеют более густой мех (мягкий и толщиной 2—3 см), более крупные уши и более длинные
+                        конечности.
+                        У коалы есть большие острые когти, помогающие ей с лазаньем по деревьям. Вес коалы
+                        варьирует от 5 кг у небольшой самки до 14 кг у крупного самца. Кисть передней лапы имеет 2
+                        отставленных в сторону
+                        «больших» пальца, имеющие две фаланги, которые противостоят трем остальным
+                        обычным пальцам, с тремя фалангами, расположенными вдоль кисти. Называть второй
+                        палец коалы указательным не совсем корректно, ибо он выглядит так же, как и первый, то есть
+                        «большой» палец. Все пальцы передних лап завершаются прочными когтями. Всё это позволяет
+                        животному
+                        эффективно обхватывать ветви деревьев, замыкая кисть в надёжный замок, а детёнышам крепко
+                        держаться за шерсть матери. В таком положении коала спит, а при случае
+                        может и повисеть на одной лапе. На ступне всего один «большой» палец без когтя, и
+                        четыре обычных с когтями. Коалы — одни из немногих млекопитающих, за исключением приматов,
+                        имеющих
+                        папиллярный узор на
+                        подушечках пальцев. Отпечатки пальцев коал похожи на отпечатки пальцев людей, и их сложно
+                        различить
+                        даже с помощью микроскопа. Зубы коалы адаптированы к травоядному питанию и похожи на зубы других
+                        двурезцовых сумчатых, например кенгуру и вомбатов. Они имеют острые резцы, чтобы обрезать листья
+                        прямо у передней части рта, и отделены от шлифовальных зубов. Достоверных данных о
+                        продолжительности
+                        жизни коал в дикой природе довольно мало, в неволе же наблюдались особи, жившие до 18 лет. Днём
+                        коала спит, устроившись на ветке или в развилках ветвей; ночью лазает по деревьям, отыскивая
+                        корм.
+                        Даже если коала не спит, он обычно часами сидит совершенно неподвижно, обхватив ветку или ствол
+                        дерева передними лапами. Коала неподвижен 16—18 часов в сутки. По земле он передвигается не
+                        очень
+                        хорошо и потому спускается вниз только для перехода на новое дерево, до которого не может
+                        допрыгнуть. Коалы ловко и уверенно прыгают с дерева на дерево; спасаясь бегством, переходят на
+                        энергичный галоп и быстро взбираются на
+                        ближайшее дерево. Плавают, если надо.
 
-                        <h1>Где они обитают?</h1>
-                        <h2></h2>
-                            <!-- <img src="картиночки/ареал обитания капибар.png" height="700px" width="400px"> -->
-                        
-                        <h1>Как они общаются</h1>
-                        <h2></h2>                   
+                        Коала медлителен из-за питания. Он приспособился питаться почти
+                        исключительно побегами и листьями эвкалипта, которые волокнисты и содержат мало белка и содержат
+                        много фенольных и терпеновых соединений, ядовитых для большинства животных. Кроме того, молодые
+                        побеги содержат синильную кислоту — яд, капля которого способна
+                        убить овцу. Из-за этого пищевая конкуренция у коалы
+                        чрезвычайно мала — кроме него листьями эвкалипта питаются только поссумы и сумчатые летяги.
 
-                        <!-- <h1>О чём сайт?</h1>
+                        Чтобы не отравиться, коала ест только менее ядовитый эвкалипт, произрастающий на плодородных
+                        почвах или вдоль
+                        берегов рек, в чьих листьях концентрация яда ниже. В итоге, из 800 видов эвкалипта коалы
+                        питаются всего 120 видами.
+                        Выбирать подходящую пищу коалам помогает развитое обоняние.</h2>
+
+
+                    <h1>Где они обитают?</h1>
+                    <h2> Коалы населяют эвкалиптовые леса, почти всю жизнь проводят в кронах этих деревьев. Естественный
+                        ареал коалы включает прибрежные районы на востоке и юге Австралии, от Аделаиды до южной
+                        части полуострова Кейп-Йорк. Также они распространены в регионах с достаточным количеством влаги
+                        для
+                        поддержки подходящих коалам лесов. Коалы штата Южная Австралия были в значительной степени
+                        уничтожены в течение первой половины XX века, но с помощью особей из штата Виктория популяция
+                        коал в
+                        Южной Австралии восстановлена. В начале XX века они были завезены в Янчепe в Западной Австралии,
+                        а также на ряд островов у побережья Квинсленда, в том числе острове Кенгуру и Магнитный остров,
+                        который предположительно является северной оконечностью современного ареала коал. Общая площадь
+                        ареала коал составляет около 1 000 000 км² и включает не менее 30 биогеографических регионов
+                    </h2>
+
+
+                    <h1>Как они общаются</h1>
+                    <h2>Коалы обычно молчаливы, но самцы могут подавать очень громко кричать. В период
+                        размножения его можно услышать на расстоянии в километр. Способность коал издавать звук
+                        большой громкости и низкой частоты, нехарактерный для некрупного животного, учёные объясняют
+                        наличием дополнительной пары голосовых связок. Самки выбирают
+                        себе партнеров в зависимости от этих призывных криков, отдавая при этом предпочтение более
+                        крупным самцам. Когда коала испуган или ранен, он может издавать громкий крик, похожий на
+                        крик ребёнка.
+
+                    </h2>
+
+                    <!-- <h1>О чём сайт?</h1>
                         <h2>Думаю, что и так всем понятно, что сайт про . А именно — сайт с картинками, на которых это животное показывает себя во всей красе.
                             Для более полного понимания об этих милашках рекомендую посмотреть <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BF%D0%B8%D0%B1%D0%B0%D1%80%D0%B0">страницу о них на википедии</a>
                             <br>Скоро на сайте появятся странички про <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BC%D0%B1%D0%B0%D1%82%D0%BE%D0%B2%D1%8B%D0%B5">вомбатов</a>, 
@@ -100,25 +232,26 @@
                         </h2> -->
 
 
-                    </div>
-                
+                </div>
+
                 <!-- <a href="spisok.html"><h2>Список всех капибар</h2></a> -->
-                 
+
                 <!-- <a href="test.html"><h2>Тестовая страница</h2></a> -->
             </main>
             <footer>
-               <h2>Сайт создан <a href="index.html">Илюшей</a></h2>
-               <div id="scr"></div>
-               <script>
-               const ww = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-const wh = window.innerHeight|| document.documentElement.clientHeight|| document.body.clientHeight;
-const width = window.screen.width * window.devicePixelRatio;
-const height = window.screen.height * window.devicePixelRatio;
-const scrRes = `Ширина, высота: <b>${screen.width} x ${screen.height}</b>. Реальное разрешение с pixel ratio <b>${window.devicePixelRatio}</b> – <b>${width} x ${height}</b> пикселей. Внутренние размеры окна: <b>${ww} x ${wh}</b>. Доступные размеры: <b>${window.screen.availWidth} x ${window.screen.availHeight}</b>`;
-document.getElementById("scr").innerHTML = scrRes;
+                <h2>Сайт создан <a href="index.html">Илюшей</a></h2>
+                <div id="scr"></div>
+                <script>
+                    const ww = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                    const wh = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+                    const width = window.screen.width * window.devicePixelRatio;
+                    const height = window.screen.height * window.devicePixelRatio;
+                    const scrRes = `Ширина, высота: <b>${screen.width} x ${screen.height}</b>. Реальное разрешение с pixel ratio <b>${window.devicePixelRatio}</b> – <b>${width} x ${height}</b> пикселей. Внутренние размеры окна: <b>${ww} x ${wh}</b>. Доступные размеры: <b>${window.screen.availWidth} x ${window.screen.availHeight}</b>`;
+                    document.getElementById("scr").innerHTML = scrRes;
                 </script>
             </footer>
-        </div>        
-</div>
+        </div>
+    </div>
 </body>
+
 </html>

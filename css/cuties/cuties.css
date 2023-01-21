@@ -1,0 +1,191 @@
+/* body {
+    align-content: center;
+    
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+  } */
+  
+  .h-menu{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.1);
+    text-decoration: wavy;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .element{
+    text-align: center;
+  }
+  .layout {
+    display: flex;
+    max-width: 1500px;
+    height: fit-content;
+    margin:0 auto;
+  }
+  
+  main {
+    height: fit-content;
+  }
+  
+  menu ul {
+    list-style: none;
+  }
+  
+  
+  h3:hover {
+    animation: changeColor 2s linear;
+  }
+  
+  h2 {
+  
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+  }
+  
+  
+  h1 {
+  
+    color: white;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+  }
+  
+  h3 {
+  
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+  }
+  
+  
+  
+  menu a {
+    text-decoration: none;
+    text-shadow: rgb(0, 0, 0);
+  
+  }
+  
+  
+  
+  
+  h2:hover {
+    animation: changeColor 2s linear;
+  }
+  
+  
+  
+  header,
+  main,
+  footer,
+  menu {
+    background-color: rgba(195, 195, 188, 0.500);
+  }
+  
+  .right {
+  
+    height: fit-content;
+  
+  
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 0;
+  }
+  
+  .left {
+  
+    height: fit-content;
+  
+  
+    margin-top: 0;
+    margin-bottom: 0;
+  
+    margin-right: 2px;
+  
+  }
+  
+  .layout {
+  
+  
+    margin-top: 2px;
+  }
+  
+  main {
+  
+  
+  
+    border-radius: 15px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 0;
+  
+  }
+  
+  menu {
+  
+  
+  
+    /* width: max-content; */
+    border-radius: 15px;
+  
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  footer {
+  
+  
+  
+    border-radius: 15px;
+  
+    margin-top: 4px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .top {
+  
+  
+    margin: 0;
+  }
+  
+  header {
+  
+    margin-bottom: 2.5px;
+    border-radius: 15px;
+  }
+  
+  .left menu ul {
+    padding: 0;
+  
+  }
+  
+  .right li {
+    padding: 0;
+    list-style-type: none;
+  }
+  
