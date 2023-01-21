@@ -1,0 +1,414 @@
+body {
+    align-content: center;
+    
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+  }
+  
+  .h-menu{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.1);
+    text-decoration: wavy;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .element{
+    text-align: center;
+  }
+  .layout {
+    display: flex;
+    max-width: 1500px;
+    height: fit-content;
+    margin:0 auto;
+  }
+  
+  main {
+    height: fit-content;
+  }
+  
+  menu ul {
+    list-style: none;
+  }
+  
+  
+  h3:hover {
+    animation: changeColor 2s linear;
+  }
+  
+  h2 {
+  
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+  }
+  
+  
+  h1 {
+  
+    color: white;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+  }
+  
+  h3 {
+  
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+  }
+  
+  
+  
+  menu a {
+    text-decoration: none;
+    text-shadow: rgb(0, 0, 0);
+  
+  }
+  
+  a:visited {
+    color: rgb(255, 220, 0);
+  }
+  
+  menu a:hover {
+    color: #ff8800;
+    
+    text-decoration: underline;
+  }
+  
+  .right a:hover {
+    color: #ff8800;
+    text-decoration: underline;
+  }
+  
+  .right a {
+    text-decoration: none;
+    color: rgb(255, 220, 0);
+  }
+  
+  
+  
+  h2:hover {
+    animation: changeColor 2s linear;
+  }
+  
+  
+  
+  header,
+  main,
+  footer,
+  menu {
+    background-color: rgba(195, 195, 188, 0.500);
+  }
+  
+  .right {
+  
+    height: fit-content;
+  
+  
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 0;
+  }
+  
+  .left {
+  
+    height: fit-content;
+  
+  
+    margin-top: 0;
+    margin-bottom: 0;
+  
+    margin-right: 2px;
+  
+  }
+  
+  .layout {
+  
+  
+    margin-top: 2px;
+  }
+  
+  main {
+  
+  
+  
+    border-radius: 15px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 0;
+  
+  }
+  
+  menu {
+  
+  
+  
+    /* width: max-content; */
+    border-radius: 15px;
+  
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  footer {
+  
+  
+  
+    border-radius: 15px;
+  
+    margin-top: 4px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .top {
+  
+  
+    margin: 0;
+  }
+  
+  header {
+  
+    margin-bottom: 2.5px;
+    border-radius: 15px;
+  }
+  
+  .left menu ul {
+    padding: 0;
+  
+  }
+  
+  .right li {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  /* .selector-for-some-widget {
+      box-sizing: content-box;
+  
+    }
+  
+    *{box-sizing:border-box}
+    body {
+      margin: 0;
+      display:inline-flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    } */
+  @keyframes loader {
+    0% {
+      transform: rotate(-45deg)
+    }
+  
+    50% {
+      transform: rotate(-135deg)
+    }
+  
+    100% {
+      transform: rotate(-225deg)
+    }
+  }
+  
+  @keyframes span-1 {
+    0% {
+      transform: translate(0);
+    }
+  
+    50% {
+      transform: translate(-15px, 0);
+      border-color: #ff0000
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  @keyframes span-2 {
+    0% {
+      transform: translate(0);
+    }
+  
+    50% {
+      transform: translate(15px, 0);
+      border-color: #6200ff
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  @keyframes span-3 {
+    0% {
+      transform: translate(0);
+    }
+  
+    50% {
+      transform: translate(0, -15px);
+      border-color: #6200ff
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  @keyframes span-4 {
+    0% {
+      transform: translate(0);
+    }
+  
+    50% {
+      transform: translate(0, 15px);
+      border-color: #ff0000
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  
+  .loader {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    animation: loader 5s infinite ease-in-out;
+  }
+  
+  .loader span {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 2px solid #ffffff;
+  }
+  
+  .loader span:nth-child(1) {
+    animation: span-1 5s ease-in-out infinite;
+  }
+  
+  .loader span:nth-child(2) {
+    animation: span-2 5s ease-in-out infinite;
+  }
+  
+  .loader span:nth-child(3) {
+    animation: span-3 5s ease-in-out infinite;
+  }
+  
+  .loader span:nth-child(4) {
+    animation: span-4 5s ease-in-out infinite;
+  }
+  
+  
+  @keyframes changeColor {
+  
+    /* 0% {
+        background-color: rgba(33, 0, 95, 0);
+      } */
+    0% {
+      background-color: rgba(255, 255, 0, 0.25);
+      text-shadow: darkslateblue;
+    }
+  
+    50% {
+      background-color: rgba(255, 111, 0, 0.5);
+      text-shadow: darkslateblue;
+    }
+  
+    100% {
+      background-color: rgba(255, 255, 0, 0.25);
+      text-shadow: darkslateblue;
+    }
+  
+    /* 100% {
+          background-color: rgba(33, 0, 95, 0);
+        } */
+  }
+  
+  .element {
+    animation: changeColor 20s infinite;
+    border-radius: 15px;
+  }
+  
+  @keyframes circle-to-square {
+    from {
+      width: 25%;
+      height: auto;
+    }
+  
+    50% {
+      width: 50%;
+      height: auto;
+    }
+  
+    75% {
+      width: 75%;
+      height: auto;
+    }
+  
+    to {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @keyframes color-change {
+    from {
+      background-color: rgba(255, 255, 0, 0.5);
+      text-shadow: darkslateblue;
+    }
+  
+    50% {
+      background-color: #644792;
+      text-shadow: darkslateblue;
+    }
+  
+    to {
+      background-color: #ffc400;
+    }
+  }
+  
+  .cveto-menaska {
+    width: auto;
+    border-radius: 15px;
+    animation:
+      color-change 20s alternate-reverse linear infinite;
+  }
+  
+  .child {
+    text-align: end;
+    border-radius: 15px;
+    animation:
+      circle-to-square 10s alternate-reverse infinite ease-in-out 5s,
+      color-change 20s alternate-reverse linear infinite;
+  }
+  
