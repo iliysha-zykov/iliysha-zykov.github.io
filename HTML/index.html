@@ -1,51 +1,261 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
-    <link rel="shortcut icon" href="../картиночки/иконки/rfgbmfhf.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Милые Капибары</title>
-    <style>body{
-        background-image: url("../картиночки/капибара\ с\ размытым\ фоном.jpg");
-        background-position:top ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 0px;
-        }
-        a { 
-            text-decoration: none;
-            background-color: aliceblue;
-        } 
-        a:visited {
-            color: rgba(255, 255, 255, 0.795);
-        }   
-        a:hover { 
-        text-decoration: underline;
-        background-color: bisque;
-        }
-        .title {
-            font-size: 300%; 
-        color: white;
-        }
-        @media (max-width:500px) {
-            body {
-                margin: 0;
-                padding: 0;
-            };
-        }
-    </style>
-    </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <link rel="shortcut icon" href="картиночки/иконки/ダウンロード.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="site 2/styles.css">
+  <title>Илья Зыков</title>
+  <style>
+    body {
+      display: flex;
+      /* background-image: url("картиночки/фоны/jason-leung-hsS6jTr-pns-unsplash.jpg"); */
+
+
+    }
+
+    @media (min-width:300px) and (max-width:400px) {
+      body {
+
+
+/* 
+        background-image: url("картиночки/фоны/david-pisnoy-RiGGe25WUw4-unsplash.jpg"); */
+
+        width: 100%;
+      }
+
+
+      * {
+        margin: 0;
+        padding: 0;
+
+      }
+    }
+
+    @media (min-width:400px) and (max-width:600px) {
+      body {
+
+        background-image: url("картиночки/фоны/david-pisnoy-RiGGe25WUw4-unsplash.jpg");
+
+        width: 100%;
+      }
+
+      header,
+      main,
+      footer,
+      menu {
+        /* background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(255, 166, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(0, 128, 0, 0.5), rgba(0, 125, 255, 0.5), rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5)); */
+        background: linear-gradient(135deg, rgba(255, 255, 0, 0.5), rgba(255, 190, 0, 0.5), rgba(255, 125, 0, 0.5), rgba(255, 60, 0, 0.5));
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+
+      }
+    }
+
+    @media (min-width:600px) and (max-width:1000px) {
+      body {
+
+        background-image: url("картиночки/фоны/david-pisnoy-RiGGe25WUw4-unsplash.jpg");
+
+        width: 100%;
+      }
+
+      header,
+      main,
+      footer,
+      menu {
+        /* background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(255, 166, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(0, 128, 0, 0.5), rgba(0, 125, 255, 0.5), rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5)); */
+        background: linear-gradient(135deg, rgba(255, 255, 0, 0.5), rgba(255, 190, 0, 0.5), rgba(255, 125, 0, 0.5), rgba(255, 60, 0, 0.5));
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+
+      }
+    }
+
+    /* @media (max-width:600px) {
+      body {
+        text-align: left;
+        display: flow-root;
+        align-content: center;
+        background-image: url("картиночки/фоны/600px.jpg");
+        
+      } 
+
+
+      * {
+        margin: 0;
+        padding: 0;
+
+      }
+    } */
+
+    header,
+    main,
+    footer,
+    menu {
+      /* background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(255, 166, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(0, 128, 0, 0.5), rgba(0, 125, 255, 0.5), rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5)); */
+      /* background: linear-gradient(45deg, rgba(255, 0, 0, 0.65), rgba(180, 95, 95, 0.65), rgba(120, 95, 180, 0.65), rgba(128, 0, 128, 0.65)); */
+      background: linear-gradient(-45deg, rgba(255, 255, 0, 0.5), rgba(255, 190, 0, 0.5), rgba(255, 125, 0, 0.5), rgba(255, 60, 0, 0.5));
+
+      height: fit-content;
+
+      padding-top: 2px;
+      padding-left: 2px;
+      padding-right: 2px;
+      padding-bottom: 2px;
+
+      border-radius: 5px;
+
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 0;
+    }
+    menu ul{
+      
+      display: flex;
+    flex-wrap: wrap;
+    }
+    menu{
+      align-content:space-around;
+    }
+    li{
+      margin-right: 8px;
+    }
+    
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</head>
+
+
 <body>
-    <header>
-        <h1>Главная страница сайта «Милые Капибары»</h1>
-    </header>
-    <main><marquee behavior="scroll" direction="left" width='100%' ><p class="hs"><b>МИЛЫЕ КАПИБАРЫ</b></p></marquee>
-        <a href="spisok.html"><h2>Список всех капибар</h2></a>
-        <h3>Этот сайт про капибар создан Ильёй Зыковым как тестовый сайт по одной причине: капибары милые</h3>
-        <marquee behavior="scroll" direction="left" width='100%' ><p class="hs"><b>МИЛЫЕ КАПИБАРЫ</b></p></marquee>
-        <!-- <a href="test.html"><h2>Тестовая страница</h2></a> -->
-    </main>
+
+  <div class="layout">
+    <div class="left">
+    </div>
+    
+    <div class="right">
+      <header>
+        <div class="element">
+          <h1>
+            МОЯ СТРАНИЦА </h1>
+        </div>
+      </header>
+      <menu>
+        <!-- <ul>
+          <li>
+            <div class="h-menu"><a href="#about">Обо мне</a></div>
+          </li>
+          <li>
+            <div class="h-menu"><a href="#hobbies">Увлечения</a></div>
+          </li>
+          <li>
+            <div class="h-menu"><a href="#languages">Иностранные языки</a></div>
+          </li>
+          <li>
+            <div class="h-menu"><a href="#music">Музыка</a></div>
+          </li>
+        </ul> -->
+        <h1><a href="site 2/index.html">ПОСМОТРИТЕ, ЧТО Я СДЕЛАЛ</a>
+          
+
+        </h1>
+      </menu>
+      
+      <main>
+        <div class="element" id="#about">
+          <h1>Коротко обо мне любимом</h1>
+        </div>
+
+        <h2>Меня зовут Илья Зыков. Живу в Москве. Мне 15 лет, учусь в 9 классе.
+
+        </h2>
+        <div class="element" id="#hobbies">
+          <h1>Lorem, ipsum dolor.</h1>
+        </div>
+        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, excepturi modi placeat voluptatem
+          numquam officiis? Libero, alias natus quae adipisci quos ipsa facilis consectetur dignissimos debitis itaque
+          eum repellendus inventore et explicabo autem officiis impedit temporibus! Optio illo, reiciendis omnis ullam
+          distinctio eum aspernatur praesentium cumque quis asperiores qui quae quod, ipsa reprehenderit corporis neque?
+          Dolore animi vero dolor, illo deserunt consequuntur exercitationem distinctio, maxime enim quibusdam non quasi
+          adipisci blanditiis. Quisquam nobis aperiam, iure harum pariatur officiis itaque! Eveniet eius error
+          consequatur aperiam. Qui cumque excepturi, voluptatum inventore, voluptatibus deserunt dolorem, aperiam
+          reprehenderit expedita modi consequatur adipisci. Quas libero tempora nobis eligendi maxime impedit. Earum
+          illo perferendis nulla odit sed eius architecto amet similique placeat ipsam accusantium veritatis nobis
+          consequatur, modi distinctio temporibus soluta deserunt numquam fuga? Quidem obcaecati assumenda suscipit aut,
+          magni quo laudantium vero illo aliquid deserunt quasi facere placeat neque quas, necessitatibus quaerat qui
+          ipsum officia facilis cupiditate doloribus tempora consequuntur ullam. Nostrum corporis tempora ad, dolorem
+          dolorum voluptatibus exercitationem asperiores id temporibus quos eos perspiciatis ex autem provident
+          quibusdam ratione non esse officiis nisi eum unde facilis eaque mollitia maiores? Sequi placeat quos, maiores
+          officia aperiam alias, eos voluptatem nisi similique, numquam doloremque?</h2>
+        <div class="element" id="#languages">
+          <h1>Lorem, ipsum dolor.</h1>
+        </div>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, voluptatum hic commodi quaerat, veniam
+          facere aspernatur nam consequuntur dignissimos cum dolor impedit vitae numquam. Dolor ducimus eaque maxime
+          odio dolorem laborum nulla eius, hic nam atque ullam quo recusandae possimus nesciunt at culpa vero molestiae
+          reprehenderit quibusdam eveniet veniam asperiores cupiditate? Quos, quo delectus inventore alias minima
+          explicabo veniam animi adipisci qui ab sequi ipsa! Consequatur qui itaque placeat est culpa temporibus
+          deserunt doloremque, ut a mollitia architecto, iure eum debitis delectus sint, laudantium veritatis inventore
+          perspiciatis? Eveniet alias itaque quae nobis fugiat doloremque quasi iusto, aliquam numquam. Reiciendis harum
+          asperiores dolor inventore dolores perferendis quas at pariatur molestias. Voluptate, aliquam eligendi.
+          Distinctio, dolorem. Illum, consequatur. Quisquam, exercitationem sed. Alias praesentium enim excepturi
+          adipisci laudantium sunt rem, aspernatur cumque velit quo ducimus incidunt et maiores repudiandae tempora
+          beatae repellat reprehenderit eveniet veniam, dolorem culpa ipsam.</h2>
+        <div class="element" id="#music">
+          <h1>Lorem, ipsum dolor.</h1>
+        </div>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, voluptatum hic commodi quaerat, veniam
+          facere aspernatur nam consequuntur dignissimos cum dolor impedit vitae numquam. Dolor ducimus eaque maxime
+          odio dolorem laborum nulla eius, hic nam atque ullam quo recusandae possimus nesciunt at culpa vero molestiae
+          reprehenderit quibusdam eveniet veniam asperiores cupiditate? Quos, quo delectus inventore alias minima
+          explicabo veniam animi adipisci qui ab sequi ipsa! Consequatur qui itaque placeat est culpa temporibus
+          deserunt doloremque, ut a mollitia architecto, iure eum debitis delectus sint, laudantium veritatis inventore
+          perspiciatis? Eveniet alias itaque quae nobis fugiat doloremque quasi iusto, aliquam numquam. Reiciendis harum
+          asperiores dolor inventore dolores perferendis quas at pariatur molestias. Voluptate, aliquam eligendi.
+          Distinctio, dolorem. Illum, consequatur. Quisquam, exercitationem sed. Alias praesentium enim excepturi
+          adipisci laudantium sunt rem, aspernatur cumque velit quo ducimus incidunt et maiores repudiandae tempora
+          beatae repellat reprehenderit eveniet veniam, dolorem culpa ipsam.</h2>
+
+        <!-- <h3>Держите красивую анимашку:<div class="child"><h2>utsukushisa</h2></div></h3> -->
+
+      </main>
+      <footer>
+        <div class="element">
+          <h1>Можете также посмотреть:</h1>
+        </div>
+        <!-- <a href="index.html">
+          <h2>Страничка автора</h2>
+        </a> -->
+        <a href="CuteBaras.html">
+          <h2>Cuties</h2>
+        </a>
+        <div id="scr">
+          <script>
+            const ww = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            const wh = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+            const width = window.screen.width * window.devicePixelRatio;
+            const height = window.screen.height * window.devicePixelRatio;
+            const scrRes = `Ширина, высота: <b>${screen.width} x ${screen.height}</b>. Реальное разрешение с pixel ratio <b>${window.devicePixelRatio}</b> – <b>${width} x ${height}</b> пикселей. Внутренние размеры окна: <b>${ww} x ${wh}</b>. Доступные размеры: <b>${window.screen.availWidth} x ${window.screen.availHeight}</b>`;
+            document.getElementById("scr").innerHTML = scrRes;
+          </script>
+        </div>
+      </footer>
+    </div>
+  </div>
 </body>
+
 </html>

@@ -1,0 +1,25 @@
+main {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    background: linear-gradient(to bottom left, rgb(20, 70, 125, 0.75), rgb(10, 30, 50, 0.75));
+    
+    
+}
+
+main 
+
+.brd{
+    border: 3px solid rgb(200, 190, 180);
+}
+
+h1{
+    color: rgb(200, 190, 180);
+}
+
+button li{
+    list-style-type: none;
+    padding:0;
+    text-align: left;
+}
