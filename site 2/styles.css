@@ -26,8 +26,8 @@ body {
   left: 205px;
   top: 158px;
   height: 850px;
-  width: 100%;
-  max-width: 1510px;
+  /* width: 100%; */
+  width: 1510px;
   margin: auto;
   background-color: rgba(232, 232, 232, 1);
   border-radius: 15px;
