@@ -208,7 +208,7 @@
   }
   .ppp2 {
     position: absolute;
-    top: 1608px;
+    top: 1438px;
     left:205px;
     height: auto;
     width: 1510px;
@@ -246,7 +246,7 @@
     position: absolute;
     top: 1058px;
     left:205px;
-    height: 500PX;
+    height: 330PX;
     width: 1510px;
     background-color: rgba(232, 232, 232, 1);
     border: 2px;
@@ -259,7 +259,7 @@
 footer{
   display: flex;
   position: absolute;
-    top: 2228px;
+    top: 2298px;
   
   height: auto;
   width: 1920px;
@@ -284,7 +284,7 @@ footer{
   text-decoration:underline;
  }
 
- .atext {
+ footer .atext {
   color:rgba(170, 158, 216, 1);
   font-size: 30px;
  }
@@ -305,6 +305,15 @@ footer{
  }
 
  footer .es{
-  
+  margin-top: 15px;
+  margin-bottom: 15px;
   margin-left: 450px;
+ }
+
+ .ppp1 .atext{
+  color:rgba(170, 158, 216, 1);
+ }
+ .ppp1 a:hover {
+  color: rgba(170, 158, 216, 1);
+  text-decoration:underline;
  }
