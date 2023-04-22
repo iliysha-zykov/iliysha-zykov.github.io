@@ -322,3 +322,7 @@ footer .es {
   color: rgba(170, 158, 216, 1);
   text-decoration: underline;
 }
+
+.header1 img{
+  opacity: 70%;
+}
